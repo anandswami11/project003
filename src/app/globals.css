@@ -17,11 +17,54 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  width: 1100px;
+  color: white;
+  margin: auto;
+  background-color: black;
+  /* color: rgb(var(--foreground-rgb));
   background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
+}
+/* .right-box{
+  background-image: url('../app/images/1687149525469_512.webp');
+} */
+.banner, .text{
+   width: 100%;
+  text-align: center;
+  padding: 25px 0px;
+  background-color: rgb(43, 35, 35);
+  font-size: 35px;
+  font-weight: 800;
+  float: left;
+}
+.link1{
+  width: 100%;
+  float: left;
+  font-size: 22px;
+  color: black;
+  background-color: white;
+}
+.anand{
+  float: left;
+  padding: 10px;
+}
+.about{
+  padding-right: 10px;
+}
+.about, .contact, .skill{
+padding: 5px;
+  float: right;
+}
+.footer{
+  width: 100%;
+   text-align: center;
+  padding: 25px 0px;
+  background-color: rgb(65, 62, 62);
+  font-size: 25px;
+  font-weight: 800;
+  float: left;
 }
